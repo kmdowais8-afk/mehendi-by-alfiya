@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alfiya Mehendi | Luxury Bridal Mehndi Art</title>
+    <meta name="description" content="Discover the exquisite, sophisticated traditional 3D mehndi art of Alfiya. Book your luxury bridal experience." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <!-- 3D Canvas Background -->
+    <canvas id="webgl-canvas"></canvas>
+
+    <!-- Navigation Dots -->
+    <nav class="nav-dots">
+      <a href="#hero" class="nav-dot active" aria-label="Hero"></a>
+      <a href="#about" class="nav-dot" aria-label="About"></a>
+      <a href="#gallery" class="nav-dot" aria-label="Gallery"></a>
+      <a href="#testimonials" class="nav-dot" aria-label="Testimonials"></a>
+      <a href="#contact" class="nav-dot" aria-label="Contact"></a>
+    </nav>
+
+    <main class="content-wrapper">
+      <!-- Section 1: Hero -->
+      <section id="hero" class="section hero-section">
+        <div class="content-container text-center">
+          <p class="subtitle fade-up">PREMIUM BRIDAL ART</p>
+          <h1 class="title fade-up">Alfiya Mehendi</h1>
+          <p class="description fade-up">Where tradition meets sophisticated artistry. A bespoke journey for the modern bride.</p>
+          <a href="#contact" class="cta-button fade-up">Book Consultation</a>
+        </div>
+      </section>
+
+      <!-- Section 2: About -->
+      <section id="about" class="section about-section text-left">
+        <div class="content-container row reverse-row">
+          <div class="text-col">
+            <h2 class="section-title fade-up">The Art of Elegance</h2>
+            <p class="section-desc fade-up">
+              Mehendi is more than a tradition; it is a canvas of emotions and storytelling. For over a decade, we have 
+              sculpted intricate, personalized designs using 100% natural, organic henna, ensuring a stain as rich as the love it celebrates.
+            </p>
+            <div class="stats-grid fade-up">
+              <div class="stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Years of Mastery</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">5K+</span>
+                <span class="stat-label">Happy Brides</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Organic Henna</span>
+              </div>
+            </div>
+          </div>
+          <div class="image-col fade-up">
+             <!-- Decorative Imagery -->
+             <div class="glass-card decor-box" style="background-image: url('/img/heritage.webp')">
+                <span class="decor-text">Heritage & Grace</span>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Gallery -->
+      <section id="gallery" class="section gallery-section">
+        <div class="content-container">
+          <h2 class="section-title text-center fade-up">Portfolio of Mastery</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item fade-up" style="background-image: url('/img/bridal.webp')"><div class="gallery-overlay"><span>Bridal Intricacy</span></div></div>
+            <div class="gallery-item fade-up" style="background-image: url('/img/floral.webp')"><div class="gallery-overlay"><span>Floral Motifs</span></div></div>
+            <div class="gallery-item fade-up" style="background-image: url('/img/contemporary.webp')"><div class="gallery-overlay"><span>Contemporary Fusion</span></div></div>
+            <div class="gallery-item fade-up" style="background-image: url('/img/arabic.webp')"><div class="gallery-overlay"><span>Arabic Elegance</span></div></div>
+            <div class="gallery-item fade-up" style="background-image: url('/img/minimalist.webp')"><div class="gallery-overlay"><span>Minimalist Grace</span></div></div>
+            <div class="gallery-item fade-up" style="background-image: url('/img/traditional.webp')"><div class="gallery-overlay"><span>Traditional Roots</span></div></div>
+            <div class="gallery-item fade-up" style="background-image: url('/img/peacock.webp')"><div class="gallery-overlay"><span>Peacock Symphony</span></div></div>
+            <div class="gallery-item fade-up" style="background-image: url('/img/portrait.webp')"><div class="gallery-overlay"><span>Custom Portraits</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Testimonials -->
+      <section id="testimonials" class="section review-section text-center">
+        <div class="content-container">
+          <h2 class="section-title fade-up">Words of Love</h2>
+          <div class="testimonial-carousel fade-up glass-card">
+            <p class="quote">"Alfiya created the most stunning detailed portraits of me and my husband. The stain lasted over two weeks and was absolutely beautiful!"</p>
+            <span class="author">— Priya Sharma, Bride</span>
+            <div class="stars">★★★★★</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Contact -->
+      <section id="contact" class="section contact-section text-center">
+        <div class="content-container glass-panel fade-up">
+          <h2 class="section-title">Let's Get in Touch</h2>
+          <p class="section-desc">Send a DM on Instagram to inquire about bespoke mehndi designs, or drop a quick message below!</p>
+          
+          <div class="social-links fade-up">
+             <a href="https://www.instagram.com/mehandi_by_alfiya01/?hl=en" target="_blank" rel="noopener noreferrer" class="social-btn">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+               Follow on Instagram
+             </a>
+          </div>
+
+          <form class="contact-form block-form fade-up">
+            <div class="form-group">
+              <input type="text" id="name" required placeholder="Full Name" />
+            </div>
+            <div class="form-group">
+              <input type="text" id="message" required placeholder="How can I help you?" />
+            </div>
+            <button type="submit" class="cta-button submit-btn">Send Message</button>
+          </form>
+          <footer class="footer">
+            <p>&copy; <span id="year"></span> Alfiya Mehendi. All rights reserved.</p>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
